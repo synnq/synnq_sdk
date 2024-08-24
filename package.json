@@ -1,0 +1,26 @@
+{
+  "name": "synnq-sdk",
+  "version": "1.0.5",
+  "description": "A TypeScript SDK for interacting with the Synnq platform.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "typescript",
+    "sdk",
+    "api-client",
+    "synnq"
+  ],
+  "author": "Your Name <your.email@example.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "axios": "^1.7.5"
+  }
+}
